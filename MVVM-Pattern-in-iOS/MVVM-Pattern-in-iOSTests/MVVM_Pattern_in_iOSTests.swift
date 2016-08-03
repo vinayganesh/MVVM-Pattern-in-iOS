@@ -32,5 +32,17 @@ class MVVM_Pattern_in_iOSTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+
+    func testPersonWithChange(){
+        let person = Person(fname: "Steve", lname: "Waugh")
+        let personViewModel = PersonViewModel(person: person)
+        XCTAssertEqual(personViewModel.lastName, "Morton")
+    }
+
+    func testPersonWithoutChange(){
+        let person = Person(fname: "Steve", lname: "Waugh")
+        let personViewModel = PersonViewModel(person: person)
+        XCTAssertEqual(personViewModel.lastName, "Morton")
+    }
     
 }

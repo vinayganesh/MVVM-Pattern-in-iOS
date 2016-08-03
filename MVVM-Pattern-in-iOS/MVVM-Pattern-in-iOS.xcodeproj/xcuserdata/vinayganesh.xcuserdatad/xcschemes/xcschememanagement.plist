@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MVVM-Pattern-in-iOSTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
 	</dict>
