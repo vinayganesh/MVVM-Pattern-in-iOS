@@ -2,12 +2,14 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/MVVM-Pattern-in-iOS/Person.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MVVM-Pattern-in-iOS/AppDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MVVM-Pattern-in-iOS/PersonViewModel.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MVVM-Pattern-in-iOS/ViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MVVM-Pattern-in-iOS/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MVVM-Pattern-in-iOS/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MVVM-Pattern-in-iOS/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MVVM-Pattern-in-iOS/Base.lproj/Main.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MVVM-Pattern-in-iOS/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MVVM-Pattern-in-iOS/ViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MVVM-Pattern-in-iOS/AppDelegate.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MVVM-Pattern-in-iOS/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MVVM-Pattern-in-iOSTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MVVM-Pattern-in-iOSTests/MVVM_Pattern_in_iOSTests.swift" isTestSource="false" />
     </content>

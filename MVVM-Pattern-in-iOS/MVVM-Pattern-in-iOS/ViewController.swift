@@ -9,22 +9,30 @@
 
 import UIKit
 
-
 class ViewController: UIViewController {
 
-
-    override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    //declaration
+    var person:Person!
+    var personViewModel:PersonViewModel!
+    
+    @IBOutlet weak var tblFirstName: UILabel!
+    @IBOutlet weak var tblLastName: UILabel!
+    
+    @IBAction func btnClickMe(sender: AnyObject) {
+        self.tblFirstName.text = personViewModel.firstName
+        self.tblLastName.text = personViewModel.lastName
     }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
 
+        //instantiation
+        self.person = Person(fname: "Mark", lname: "Waugh")
+        //provide details to view model to do all the computations
+        personViewModel = PersonViewModel(person: self.person)
+    }
 
     override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+        super.didReceiveMemoryWarning()
     }
-
-
-
-
 }

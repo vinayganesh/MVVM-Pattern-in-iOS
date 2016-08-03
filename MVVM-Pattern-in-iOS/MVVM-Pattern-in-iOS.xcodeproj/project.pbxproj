@@ -11,7 +11,9 @@
 		9B631353C6823E13E83FA031 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B6312445C9DA408C03977CF /* Info.plist */; };
 		9B63157F7AE25AA9AC200588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6312262DA6E751B68BF445 /* AppDelegate.swift */; };
 		9B6315B48BFD8D82FA8FAEB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B631A698923AA08A8B66264 /* Main.storyboard */; };
+		9B6315F96010851C22966338 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B631158AB3810D6162394F6 /* PersonViewModel.swift */; };
 		9B63172D50C2D7FD477BFDE4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B63118C6F44C64EA1B7FF00 /* Info.plist */; };
+		9B631958ECB60D6E009C716F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63140F8ADDE4BEF4A1982C /* Person.swift */; };
 		9B6319A134D7DA8342DB2BB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6317A5B44AA5B3701E2EC6 /* ViewController.swift */; };
 		9B631A4AB52A42D0C3250C97 /* MVVM_Pattern_in_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B631238A590F607BDD1AB7D /* MVVM_Pattern_in_iOSTests.swift */; };
 		9B631C7928D77A05DD220D1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6310F860EF9DE4C78BE0F8 /* LaunchScreen.storyboard */; };
@@ -28,11 +30,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B631158AB3810D6162394F6 /* PersonViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
 		9B63118C6F44C64EA1B7FF00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		9B6312262DA6E751B68BF445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B631238A590F607BDD1AB7D /* MVVM_Pattern_in_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Pattern_in_iOSTests.swift; sourceTree = "<group>"; };
 		9B6312445C9DA408C03977CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		9B6313FFCB442F07A52A1244 /* MVVM-Pattern-in-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Pattern-in-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B63140F8ADDE4BEF4A1982C /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		9B63169D665F3CCC5919C041 /* MVVM-Pattern-in-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-Pattern-in-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6317A5B44AA5B3701E2EC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B6319C4C9FA002DEC89570A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 				9B6312262DA6E751B68BF445 /* AppDelegate.swift */,
 				9B631A698923AA08A8B66264 /* Main.storyboard */,
 				9B6317A5B44AA5B3701E2EC6 /* ViewController.swift */,
+				9B63140F8ADDE4BEF4A1982C /* Person.swift */,
+				9B631158AB3810D6162394F6 /* PersonViewModel.swift */,
 			);
 			path = "MVVM-Pattern-in-iOS";
 			sourceTree = "<group>";
@@ -142,6 +148,7 @@
 		9B63148068D597C0C7C73679 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				ORGANIZATIONNAME = goldy;
 			};
 			buildConfigurationList = 9B631E7A87F3AE839688B860 /* Build configuration list for PBXProject "MVVM-Pattern-in-iOS" */;
@@ -191,6 +198,8 @@
 			files = (
 				9B63157F7AE25AA9AC200588 /* AppDelegate.swift in Sources */,
 				9B6319A134D7DA8342DB2BB0 /* ViewController.swift in Sources */,
+				9B631958ECB60D6E009C716F /* Person.swift in Sources */,
+				9B6315F96010851C22966338 /* PersonViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +380,7 @@
 				9B63159F0A4E0202D30EDD3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B631E7A87F3AE839688B860 /* Build configuration list for PBXProject "MVVM-Pattern-in-iOS" */ = {
 			isa = XCConfigurationList;
@@ -388,6 +398,7 @@
 				9B631DBC34788DDFA6034B0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
