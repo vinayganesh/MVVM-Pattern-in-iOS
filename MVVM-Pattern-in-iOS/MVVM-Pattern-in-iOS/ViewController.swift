@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tblFirstName: UILabel!
     @IBOutlet weak var tblLastName: UILabel!
     
-    @IBAction func btnClickMe(sender: AnyObject) {
+    @IBAction func btnClickMe(_ sender: AnyObject) {
         self.tblFirstName.text = personViewModel.firstName
         self.tblLastName.text = personViewModel.lastName
     }
