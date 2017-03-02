@@ -15,5 +15,4 @@ class Person: NSObject {
         self.firstName = fname
         self.lastName = lname
     }
-    //hello from master branch
 }
